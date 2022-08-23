@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.homecommerce.dtos.ProductDTO;
 import com.homecommerce.dtos.Response;
-import com.homecommerce.models.Product;
+import com.homecommerce.entity.Product;
 import com.homecommerce.services.ProductService;
 
 @CrossOrigin

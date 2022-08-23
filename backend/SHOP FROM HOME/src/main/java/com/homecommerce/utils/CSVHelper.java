@@ -12,7 +12,7 @@ import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.homecommerce.models.Product;
+import com.homecommerce.entity.Product;
 import com.homecommerce.services.CSVService;
 import com.homecommerce.services.CategoryService;
 

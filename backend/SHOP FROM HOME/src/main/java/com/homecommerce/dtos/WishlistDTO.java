@@ -1,6 +1,6 @@
 package com.homecommerce.dtos;
 
-import com.homecommerce.models.Wishlist;
+import com.homecommerce.entity.Wishlist;
 
 public class WishlistDTO extends Wishlist {
 

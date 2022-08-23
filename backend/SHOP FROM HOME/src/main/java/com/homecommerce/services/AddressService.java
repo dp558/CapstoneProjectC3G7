@@ -3,7 +3,7 @@ package com.homecommerce.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.homecommerce.models.Address;
+import com.homecommerce.entity.Address;
 import com.homecommerce.repos.AddressRepository;
 
 @Service

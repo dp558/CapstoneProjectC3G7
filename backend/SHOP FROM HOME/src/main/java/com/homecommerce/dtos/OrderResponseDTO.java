@@ -2,7 +2,7 @@ package com.homecommerce.dtos;
 
 import java.util.List;
 
-import com.homecommerce.models.Order;
+import com.homecommerce.entity.Order;
 
 public class OrderResponseDTO {
 

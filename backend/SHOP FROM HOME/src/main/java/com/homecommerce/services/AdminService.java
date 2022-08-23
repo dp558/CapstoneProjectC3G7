@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.homecommerce.models.Admin;
+import com.homecommerce.entity.Admin;
 import com.homecommerce.repos.AdminRepository;
 
 @Service

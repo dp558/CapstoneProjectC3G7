@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.homecommerce.dtos.Response;
 import com.homecommerce.dtos.WishlistDTO;
-import com.homecommerce.models.Category;
-import com.homecommerce.models.Wishlist;
+import com.homecommerce.entity.Category;
+import com.homecommerce.entity.Wishlist;
 import com.homecommerce.services.CategoryService;
 import com.homecommerce.services.WishlistService;
 

@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.homecommerce.dtos.LoginDTO;
 import com.homecommerce.dtos.Response;
-import com.homecommerce.models.Customer;
+import com.homecommerce.entity.Customer;
 import com.homecommerce.services.CustomerService;
 
 @CrossOrigin

@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.homecommerce.models.Category;
-import com.homecommerce.models.Product;
+import com.homecommerce.entity.Category;
+import com.homecommerce.entity.Product;
 import com.homecommerce.repos.ProductRepository;
 import com.homecommerce.utils.StorageService;
 

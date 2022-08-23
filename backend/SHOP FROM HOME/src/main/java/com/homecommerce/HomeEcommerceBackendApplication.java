@@ -6,11 +6,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-import com.homecommerce.models.Admin;
+import com.homecommerce.entity.Admin;
 import com.homecommerce.services.AdminService;
-import com.homecommerce.services.CategoryService;
-
+@EnableWebMvc
 @SpringBootApplication
 public class HomeEcommerceBackendApplication {
 	

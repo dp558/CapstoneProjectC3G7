@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.homecommerce.dtos.Response;
-import com.homecommerce.models.Cart;
+import com.homecommerce.entity.Cart;
 import com.homecommerce.services.CartService;
 
 @CrossOrigin

@@ -1,7 +1,7 @@
 package com.homecommerce.dtos;
 
-import com.homecommerce.models.Address;
-import com.homecommerce.models.Payment;
+import com.homecommerce.entity.Address;
+import com.homecommerce.entity.Payment;
 
 public class PlaceOrderDTO {
 

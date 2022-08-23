@@ -3,7 +3,7 @@ package com.homecommerce.dtos;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.homecommerce.models.Product;
+import com.homecommerce.entity.Product;
 
 public class ProductDTO extends Product {
 	

@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.homecommerce.models.Customer;
-import com.homecommerce.models.Product;
-import com.homecommerce.models.Wishlist;
+import com.homecommerce.entity.Customer;
+import com.homecommerce.entity.Product;
+import com.homecommerce.entity.Wishlist;
 
 @Repository
 public interface WishlistRepository extends JpaRepository<Wishlist, Integer> {

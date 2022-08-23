@@ -2,8 +2,8 @@ package com.homecommerce.dtos;
 
 import org.springframework.beans.BeanUtils;
 
-import com.homecommerce.models.OrderDetails;
-import com.homecommerce.models.Product;
+import com.homecommerce.entity.OrderDetails;
+import com.homecommerce.entity.Product;
 
 public class OrderDetailsDTO {
 	

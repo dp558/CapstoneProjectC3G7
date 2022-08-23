@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.homecommerce.models.Customer;
-import com.homecommerce.models.Order;
+import com.homecommerce.entity.Customer;
+import com.homecommerce.entity.Order;
 import com.homecommerce.repos.OrderRepository;
 
 @Service

@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.homecommerce.dtos.WishlistDTO;
-import com.homecommerce.models.Customer;
-import com.homecommerce.models.Product;
-import com.homecommerce.models.Wishlist;
+import com.homecommerce.entity.Customer;
+import com.homecommerce.entity.Product;
+import com.homecommerce.entity.Wishlist;
 import com.homecommerce.repos.WishlistRepository;
 
 @Service
